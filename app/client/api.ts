@@ -92,7 +92,7 @@ export class ClientApi {
       .concat([
         {
           from: "human",
-          value: "Share from [BINGBLONG]: https://neilswing.com",
+          value: "Share from [NEIL AI]: https://neilswing.com",
           // "Share from [ChatGPT Next Web]: https://github.com/Yidadaa/ChatGPT-Next-Web",
         },
       ]);

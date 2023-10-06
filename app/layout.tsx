@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "BingBlong",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "NEIL AI",
+  description: "Your personal Chat Bot.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "BingBlong",
+    title: "NEIL AI",
     statusBarStyle: "default",
   },
 };
@@ -31,6 +31,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta
+          name="1bff90ce9782eb0f75cb11fedf1b8d508715fecd"
+          content="1bff90ce9782eb0f75cb11fedf1b8d508715fecd"
+        />
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
@@ -51,10 +55,6 @@ export default function RootLayout({
           data-full-width-responsive="true"
         ></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        <meta
-          name="1bff90ce9782eb0f75cb11fedf1b8d508715fecd"
-          content="1bff90ce9782eb0f75cb11fedf1b8d508715fecd"
-        />
       </body>
     </html>
   );
